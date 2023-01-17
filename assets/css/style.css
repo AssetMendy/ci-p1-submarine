@@ -19,8 +19,7 @@ body {
 }
 
 header {
-    margin-top: 10px;
-    padding-bottom: 10px;
+    margin: 10px 0 30px;
 }
 
 #logo {
@@ -52,27 +51,56 @@ header a {
     color: inherit;
 }
 
+#navigation a:hover {
+    font-size: larger;
+}
+
 .selected {
-    color: black;
-    text-decoration: underline;
+    border-bottom: 2px solid orange;
+    border-radius: 1px;
 }
 
 /* Hero image section */
 
-#hero-image {
+#hero-section {
     width: 100%;
-    height: 300px;
-    text-align: center;
-    margin: 20px 0 20px;
-}
+    height: 500px;
+    overflow: hidden;
+    background-color: black;
 
-img {
-    width: 100%;
-    height: auto;
     position: relative;
 }
 
-#order-bttn {
+#hero-image {
+    width: 100%;
+    height: 500px;
+    background: url('../images/3O7ARORJTNC6FJXXXGM5GCAREU.jpg') no-repeat center center;
+    text-align: center;
+}
+
+#order-text {
+    color: #fff;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+
+    background-color: rgba(11, 8, 37, 0.7);
+
+    bottom: 50%;
+    right: 50%;
+
+    position: absolute;
+}
+
+#hero-image div{
+    position: relative;
+}
+
+#order-btn {
     font-family: Rowdies, sans-serif;
     font-size: 1rem;
     color: black;
@@ -80,14 +108,42 @@ img {
     border-radius: 20px;
     width: 10rem;
     height: 2rem;
+
+    top: 50%;
+    left: 45%;
+    position: absolute;
 }
 
 /* Sandwiches section */
 
-#sandwiches {
+.sandwiches {
     background-color: blueviolet;
     width: 100%;
-    height: 800px;
+    height: 1600px;
+    position: ;
+}
+
+.sandwiches img {
+    position: ;
+}
+
+#sub-one {
+    width: 570px;
+    height: 380px;
+    margin: 20px 0 0 30px ;
+}
+
+#sub-two {
+    width: 380px;
+    height: 570px;
+    display: block;
+    float: right;
+    
+}
+
+#sub-three {
+    width: 570px;
+    height: 380px;
 }
 
 /* Footer */
@@ -98,9 +154,9 @@ footer {
     display: table-row;
     height: 100px;
 }
+
 #operations-info {
     margin: 0;
-    
 }
 
 #social-links {
