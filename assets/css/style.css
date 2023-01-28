@@ -143,35 +143,31 @@ header a {
 #sub-one {
     width: 570px;
     height: 380px;
-
-
+    margin-left: 100px;
+    border-radius: 40px;
 }
 
 #sub-two {
     width: 380px;
     height: 570px;
-    
-
+    margin-right: 100px;
+    border-radius: 40px;
 }
 
 #sub-three {
     width: 570px;
     height: 380px;
-    
-
+    margin-left: 100px;
+    border-radius: 40px;
 }
 
-.sub-item-one {
-    background-color: blue;
+.sub-box-item {
+    display: flex;
+    justify-content: space-around;
 }
 
-.sub-item-two {
-    text-align: right;
-    background-color: black;
-}
-
-.sub-item-three {
-    background-color: green;
+.item-description {
+    text-align: center;
 }
 
 
@@ -337,7 +333,7 @@ header a {
 
 footer {
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin-top: 30px;
     background-color: rgb(235, 136, 24);
     border: 2px solid black;
@@ -345,30 +341,37 @@ footer {
     position: relative;
 }
 
-#operations-info {
-    margin-left: 200px;
-
-    position: absolute;
-    top: 20px;
-    left: 30px;
-}
-
 td {
     text-align: center;
-    width: 100px;
-    height: 30px;
+    width: 100%;
+    height: 25px;
 }
 
-#social-links ul {
+#contacts-footer {
     position: absolute;
+    left: 20vw;
+}
+
+#operations-footer {
+    position: absolute;
+    left: 45vw;
+}
+
+#social-links {
+    font-size: 200%;
+    position: absolute;
+    right: 200px;
+    bottom: 30px;
+    list-style-type: none;
+}
+
+#social-links li {
     display: inline;
-    right: 0;
-    margin: 15px 200px 0 0;
-    bottom: 0;
 }
 
 #social-links a {
     text-decoration: none;
+    display: inline;
     color: black;
 }
 
