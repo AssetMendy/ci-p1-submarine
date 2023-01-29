@@ -75,7 +75,7 @@ header a {
 
 #hero-image {
     width: 100%;
-    height: 600px;
+    height: 500px;
     background: url('../images/3O7ARORJTNC6FJXXXGM5GCAREU.jpg') no-repeat center center;
 }
 
@@ -127,14 +127,16 @@ header a {
 .sandwiches {
     width: 100%;
     height: 1450px;
-    padding: 50px 200px;
     box-sizing: border-box;
-    
+    position: relative;
 }
 
 #sandwiches-container{
     width: 100%;
     height: 800px;
+    padding: 3vw 10vw;
+    box-sizing: border-box;
+    position: absolute;
     
     display: flex;
     flex-direction: column;
@@ -143,25 +145,27 @@ header a {
 #sub-one {
     width: 570px;
     height: 380px;
-    margin-left: 100px;
     border-radius: 40px;
 }
 
 #sub-two {
     width: 380px;
     height: 570px;
-    margin-right: 100px;
     border-radius: 40px;
 }
 
 #sub-three {
     width: 570px;
     height: 380px;
-    margin-left: 100px;
     border-radius: 40px;
 }
 
+#sub-four-mobile {
+    display: none;
+}
+
 .sub-box-item {
+    flex-basis: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -190,6 +194,7 @@ header a {
 .menu-frame {
     width: 80%;
     height: 80%;
+    padding: 5px;
     background-color: rgba(216, 120, 11, .9);
     border-radius: 20px;
     border: 1px solid black;
@@ -237,13 +242,17 @@ header a {
     font-size: 200%;
     color: #fff;
     background-color: black;
-    margin: 5%;
+    margin: 25px 0 10px;
     border-radius: 20px;
 }
 
 .menu-card span {
-    font-size: 120%;
+    font-size: 130%;
     }
+
+.menu-section p {
+    color: #505050;
+}
 
 .menu-card .menu-section span {
     text-align: left;
@@ -282,7 +291,7 @@ header a {
 #contacts-section {
     width: 100%;
     height: 800px;
-    margin-bottom: 30px;
+    margin: 0 0 30px;
     position: relative;
     
 }
@@ -327,6 +336,14 @@ header a {
 .contact-us-links {
     text-decoration: none;
     color: inherit;
+}
+
+#map-embedded iframe {
+    height: 600px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
 }
 
 /* Footer */
@@ -380,14 +397,90 @@ td {
 
 @media screen and (max-width: 1420px) {
 
+    /* Index.html */
+
+    
+    .sandwiches {
+        width: 100%;
+        height: 1450px;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    #sandwiches-container{
+        flex-basis: 100%;
+        height: max-content;
+        box-sizing: border-box;
+        position: absolute;
+        overflow: hidden;
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    #sub-one {
+        width: 100%;
+        height: 100%;
+        border-radius: 40px;
+    }
+
+    #sub-two {
+        display: none;
+    }
+
+    #sub-three {
+        width: 100%;
+        height: 100%;
+        border-radius: 40px;
+    }
+
+    #sub-four-mobile {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 40px;
+    }
+
+    .sub-box-item {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .item-description {
+        text-align: center;
+    }
+
+    /* Menu.html */
+
+    #menu {
+        width: 100%;
+        height: 1400px;
+        position: relative;
+    }
+    
+    .background-subs {
+        width: 100%;
+        height: 1400px;
+        z-index: 0;
+        background: url('../images/hero-image.jpg') no-repeat center center;
+        position: absolute;
+    }
+
     .menu-frame {
         width: 80%;
-        height: max-content;
+        height: 90%;
         background-color: rgba(216, 120, 11, .9);
         border-radius: 20px;
         border: 1px solid black;
         position: absolute;
-        margin: 5% 10%;
+        margin: 10% 10%;
         z-index: 90;
         display: flex;
         flex-direction: column;
@@ -397,16 +490,10 @@ td {
         display: none;
     }
 
-    #menu {
-        width: 100%;
-        height: max-content;
-        position: relative;
-    }
-
     #menu-title {
-    font-size: 6vw;
-    padding: 0;
-    margin: 5px;
+        font-size: 6vw;
+        padding: 0;
+        margin: 5px;
     }
 
     #menu-subtitle {
@@ -415,5 +502,59 @@ td {
         padding: 0;
         margin: 0;
         line-height: 10px;
+    }
+
+    .menu-section > h3 {
+        font-size: 170%;
+        color: #fff;
+        background-color: black;
+        margin: 25px 0 10px;
+        border-radius: 20px;
+    }
+
+    /* Contacts.html */
+
+    #contacts-section {
+        width: 100%;
+        height: 800px;
+        position: relative;
+        
+    }
+    
+    #contacts-container {
+        width: 85%;
+        height: 85%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        padding: 2vw;
+        
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #address-container div {
+        margin-top: 10px;
+    }
+
+    #address-container h2 {
+        margin-bottom: 20px;
+        font-size: 150%;
+    }
+
+    #map-embedded iframe {
+        height: 200px;
+        width: 100%;
+        left: 0;
+        top: 0;
+        box-sizing: border-box;
+    }
+
+    
+    #address-container h2 {
+        margin-bottom: 20px;
+        font-size: 150%;
     }
 }
