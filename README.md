@@ -23,8 +23,10 @@
   - [Feedback form](#feedback-form)
   - [Not implemented features](#not-implemented-features)
 - [Testing](#testing)
-  - [Responsivness](#screen-responsivness-test)
+  - [Responsiveness](#screen-responsiveness-test)
   - [HTML/CSS Validation](#validator-test)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
   
 
@@ -95,10 +97,14 @@ The footer of the website is duplicates some contacts info, so a user could lear
   - For better navigation current page is undelined, menu style is the same and links are responsive when user hovers on them.
   - To keep users attention in one spot without the need to jump across the corners of the website, the logo and links are centered at the middle of the screen.
 
+  ![Navigation menu screenshot](documentation/navigation-menu.jpg)
+
   ### Landing page image
 
   - Langing image is designed with picturing main topic of the business, which is sandiwhces. 
   - Landing page has a text, that calls a user to an action to view the menu and the button that redirects to Menu page is provided for quicker navigation.
+
+  ![Landing page image screenshot](documentation/landing-page.jpg)
 
   ### Business introduction
 
@@ -106,11 +112,15 @@ The footer of the website is duplicates some contacts info, so a user could lear
   - To promote trust about the quality of the products, brief information about ingredients quality and source are provided
   - As additional reason to trust the business, section includes the awards and reviews
 
+  ![Business introduction screenshot](documentation/business-introduction-section.jpg)
+
   ### Footer
 
   - Footer consists of business address, working hours and links to social networks
   - Footer give opportunity to a user to learn important information, such as, locationa and working hours of the business without the need to move to a specific page
   - Social links provide a user a chance to follow the business on social network, and keep themself up to date. As well, following on socials allows business owner to have understanding about the client base
+
+  ![Footer screenshot](documentation/footer.jpg)
 
   ### Menu page
 
@@ -118,16 +128,22 @@ The footer of the website is duplicates some contacts info, so a user could lear
   - Menu allows a user to learn what products are available and make up their mind before the purchase, without the need to be present at the store
   - First section of the menu has a call to action text to promote users to make an order via a call
 
+  ![Menu page screenshot](documentation/menu-page.jpg)
+
   ### Contacts page
 
   - Contacts page consists of Address, Working hours and Contact details (email and phone), as well as a map with pinned location of the business
   - A map snippet allows a user to have better understanding of the location
   - Phone and email information is designed as a quick action buttons. This allows a user just to tap on a email address or phone number, which will open them in corresponding application
 
+  ![Contacts page screenshot](documentation/contacts-page.jpg)
+
   ### Feedback form
   
   - Feedback form provides a user a chance to leabe a feedback to a business owner about the store services and products
   - Feedback form is avaialble in Contacts page as a link that redirect to a Feedback page
+
+  ![Feedback form screenshot](documentation/feedback-form.jpg)
 
   #### Not implemented features
 
@@ -135,10 +151,10 @@ The footer of the website is duplicates some contacts info, so a user could lear
 
   # Testing
   
-  ### Screen responsivness test
+  ### Screen responsiveness test
 
-  - The website passed a test for screen responsivness
-  - The website responsivness were tested with two ways:
+  - The website passed a test for screen responsiveness
+  - The website responsiveness were tested with two ways:
     - Using DevTools and simulating different screens, in particular the screen resolution of iPad Air, iPhone 12 and Samsung Galaxy S8
     - Using real hardware: Samsung Note 8, iPhone 11 Pro and 
 
