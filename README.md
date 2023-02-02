@@ -1,6 +1,6 @@
 # SUBmarine - sandwiche shop
 
-[Deployed Website](https://assetmendy.github.io/ci-p1-submarine/)
+[Deployed Website](https://assetmendy.github.io/ci-p1-submarine/index.html)
 ![Website Mockup image](/documentation/Mockup.jpg)
 
 # Table Of Contents
@@ -193,7 +193,7 @@ Inspiration for a design of the website was made according to association to a s
 
   # Deployment
 
-  For website deployment GitHub Pages was used as a hosting platform. The deployed website can be found in following link - https://assetmendy.github.io/ci-p1-submarine/
+  For website deployment GitHub Pages was used as a hosting platform. The deployed website can be found in following link - https://assetmendy.github.io/ci-p1-submarine/index.html
 
   __To deploye the website, follow:__
   - In the GitHub repository, navigate to the Settings tab 
