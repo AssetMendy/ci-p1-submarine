@@ -1,7 +1,7 @@
 # SUBmarine - sandwiche shop
 
 [Deployed Website](https://assetmendy.github.io/ci-p1-submarine/)
-
+![Website Mockup image](/documentation/Mockup.jpg)
 
 # Table Of Contents
 
