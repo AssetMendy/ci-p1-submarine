@@ -76,18 +76,31 @@ Customer goals
 
 # Design of the website
 
-The website consists of three pages: Home, Menu and Contacts pages. Each page is designed to provide a user with all possible information that a potential customer needs to make a purchase. The navigational menu is designed at the center of the website to reduces the time for navigating, instead of hovering to a corner of the page each time.
+## General
+
+The website consists of three pages: Home, Menu and Contacts pages, and one additional Feedback page that can be accessed only from Contacts page Each page is designed to provide a user with all possible information that a potential customer needs to make a purchase. The navigational menu is designed at the center of the website to reduces the time for navigating, instead of hovering to a corner of the page each time.
 
 Home page:
-Home page provides a user with general information about the business and let's users know what kind of products and ingredients are used.
+Home page provides a user with general information about the business and let's users know what kind of products and ingredients are used. (Screenshots: [Desktop](/documentation/home-page-desktop.png)/[Mobile](/documentation/home-page-mobile.png))
 
 Menu page: 
-Menu page provides essential information about what kind of products business offers and also notifies users, that order can be made for collection via phone call.
+Menu page provides essential information about what kind of products business offers and also notifies users, that order can be made for collection via phone call. (Screenshots: [Desktop](/documentation/menu-page-desktop.png)/[Mobile](/documentation/menu-page-mobile.png))
 
 Contacts page:
-Contacts page provides with workings hours, address, contacts details and a map to give better understanding of business location.
+Contacts page provides with workings hours, address, contacts details and a map to give better understanding of business location. (Screenshots: [Desktop](/documentation/contacts-page-desktop.png)/[Mobile](/documentation/contacts-page-mobile.png))
 
-The footer of the website is duplicates some contacts info, so a user could learn the essential contacts information quicker.
+Feedback page:
+Feedback page allows a user to leave any feedback to a business owner. Following info is required from a user prior sending a feedback: Name, Email address, Option to call back and feedback text. (Screenshots: [Desktop](/documentation/feedback-page-desktop.png)/[Mobile](/documentation/feedback-page-mobile.png)) 
+
+The footer of the website is duplicates some contacts info, so a user could learn the essential contacts information quicker. 
+
+## Wireframes
+
+Wireframes for this project can be found here: [Wireframe Screenshots](/documentation/wireframe-screenshots)
+
+## Design
+
+Inspiration for a design of the website was made according to association to a sandwiches. Overall website uses a default color palette of white and black, and to accompany prodcuts color orange with slightly red tone was used to stimulate potential clients.
 
 # Features
 
