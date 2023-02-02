@@ -13,6 +13,9 @@
     - [From business owner prospective](#from-business-owner-prospective)
     - [From a user prospective](#from-a-user-prospective)
 - [Design of the website](#design-of-the-website)
+  - [General](#general)
+  - [Wireframes](#wireframes)
+  - [Color palette](#color-palette)
 - [Features](#features)
   - [Navigation menu](#navigation-menu)
   - [Landing page image](#landing-page-image)
@@ -98,7 +101,7 @@ The footer of the website is duplicates some contacts info, so a user could lear
 
 Wireframes for this project can be found here: [Wireframe Screenshots](/documentation/wireframe-screenshots)
 
-## Design
+## Color palette
 
 Inspiration for a design of the website was made according to association to a sandwiches. Overall website uses a default color palette of white and black, and to accompany prodcuts color orange with slightly red tone was used to stimulate potential clients.
 
@@ -173,8 +176,15 @@ Inspiration for a design of the website was made according to association to a s
 
   ### Validator test
 
-  - HTML test
-  - CSS test 
+  __HTML validation through W3C validator: No errors were returned when validating:__
+  - [Index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fassetmendy.github.io%2Fci-p1-submarine%2Findex.html#textarea)
+  - [Menu.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fassetmendy.github.io%2Fci-p1-submarine%2Fmenu.html)
+  - [Contact.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fassetmendy.github.io%2Fci-p1-submarine%2Fcontacts.html)
+  - [Feedback.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fassetmendy.github.io%2Fci-p1-submarine%2Ffeedback.html)
+  
+  __CSS validation through Jigsaw: No errors were returned when validating__:
+
+  - [Results for CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fassetmendy.github.io%2Fci-p1-submarine%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=ru)
 
   # Deployment
 
