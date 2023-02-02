@@ -1,4 +1,4 @@
-# SUBmarine - sandwiche shop
+# SUBmarine - sandwich shop
 
 [Deployed Website](https://assetmendy.github.io/ci-p1-submarine/index.html)
 ![Website Mockup image](/documentation/Mockup.jpg)
