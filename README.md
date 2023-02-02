@@ -170,7 +170,7 @@ Inspiration for a design of the website was made according to association to a s
 
   ### Manual Testing
 
-  - Manual testing was performed in order to indetify any bugs or potential issues. No bugs were found during the manual test.
+  - Manual testing was performed in order to indetify any bugs or potential issues. Issue with image optimization was identified, when network connection was manually limited.
   
   ### Screen responsiveness test
 
