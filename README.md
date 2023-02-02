@@ -26,6 +26,7 @@
   - [Feedback form](#feedback-form)
   - [Not implemented features](#not-implemented-features)
 - [Testing](#testing)
+  - [Manual testing](#manual-testing)
   - [Responsiveness](#screen-responsiveness-test)
   - [HTML/CSS Validation](#validator-test)
 - [Deployment](#deployment)
@@ -166,6 +167,10 @@ Inspiration for a design of the website was made according to association to a s
   - Initially Order page was considered, but due to this feature requires some JavaScript to be used, it was postponed for future
 
   # Testing
+
+  ### Manual Testing
+
+  - Manual testing was performed in order to indetify any bugs or potential issues. No bugs were found during the manual test.
   
   ### Screen responsiveness test
 
